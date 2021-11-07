@@ -78,7 +78,7 @@
 // Console.WriteLine(F(2, 6, 5));
 
 //  6. Выяснить является ли число чётным
-int a = 22;
+/*int a = 22;
 if(a%2==0)
 {
     Console.WriteLine($"Четное: {a}");
@@ -89,15 +89,35 @@ if(a%2!=0)
 }
 
 Console.WriteLine();
-
+*/
 
 //  7. Показать числа от -N до N
-
+/*int n = 10;
+for (int i = -n; i <= n; i++)
+{
+    Console.Write($"{i} ");
+}
+*/
 
 //  8. Показать четные числа от 1 до N
-
+/*int n = 10;
+for (int i = 1; i <= n; i++)
+{
+    if (i % 2 == 0)
+    Console.Write($"{i} ");
+    
+}
+*/
 
 //  9. Показать последнюю цифру трёхзначного числа
-
+/*int x = new Random().Next(100,1000);
+int z = x % 10;
+Console.WriteLine(x);
+Console.WriteLine(z);
+*/
 
 // 10. Показать вторую цифру трёхзначного числа
+int x = new Random().Next(100,1000);
+int z = x % 100;
+int a = z/10;
+Console.WriteLine($"{x}, {a}");
